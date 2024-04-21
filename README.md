@@ -2,8 +2,8 @@
 
 **Como Usar**
 
-**Acesso ao Site:**
-Abra o arquivo index.html em seu navegador da web preferido.
+**Acesse o Site:**
+https://student-khaos.github.io/PetShop-Maps/ ou abra o arquivo index.html em seu navegador da web preferido.
 
 **Informações:**
 

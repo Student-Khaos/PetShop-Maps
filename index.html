@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop Maps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>PetShop Maps</h1>
+            <img src="pata.png" alt="Pata">
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Meu Canino Feliz</h2> <br>
+            <h3>Dias de Semana: </h3>
+            <p>
+                Cães de Porte Pequeno ..... R$40,00 <br> Cães de Porte Grande ..... R$40,00</p>
+            </p>
+            <h3>Finais de Semana:</h3>
+            <p>20% mais caro</p>
+        </section>
+
+        <section>
+            <h2>Vai Rex</h2> <br>
+            <h3>Dias Úteis: </h3>
+            <p>Cães de Porte Pequeno ..... R$15,00<br> Cães de Porte Grande ..... R$50,00</p>
+            <h3>Finais de Semana:</h3>
+            <p>Cães de Porte Pequeno ..... R$20,00 <br>Cães de Porte Grande ..... R$55,00</p>
+        </section>
+
+        <section>
+            <h2>ChowChawgas</h2> <br>
+            <p>Cães de Porte Pequeno ..... R$30,00 <br>Cães de Porte Grande ..... R$45,00</p>
+        </section>
+
+    </main>
+
+    <h1>Qual é o melhor?</h1>
+
+    <div class="comandos">
+
+        <form id="petshopForm" onsubmit="calcularMelhorPetshop(event)"><br>
+            <label for="data"><b>Data:</b></label>
+            <input type="date" id="data" name="data" required><br><br>
+            <label for="quantidadePequenos"><b>Quantidade de cães pequenos:</b></label>
+            <input type="number" id="quantidadePequenos" name="quantidadePequenos" required><br><br>
+            <label for="quantidadeGrandes"><b>Quantidade de cães grandes:</b></label>
+            <input type="number" id="quantidadeGrandes" name="quantidadeGrandes" required><br><br>
+            <button id="calcular">Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -43,9 +43,9 @@ function calcularMelhorPetshop(event) {
     var resultadoDiv = document.getElementById("resultado");
 
     resultadoDiv.innerHTML = "<p><strong>Melhor petshop para cães pequenos: </strong>" + melhorPetshopPequenos.nome + "</p > " +
-        "<p>Valor: R$" + melhorPetshopPequenos.valor.toFixed(2) + "</p>" +
+        "<p>Valor: R$" + melhorPetshopPequenos.valor.toFixed(2) + " cada" + "</p>" +
         "<p><strong>Melhor petshop para cães grandes: </strong>" + melhorPetshopGrandes.nome + "</p>" +
-        "<p>Valor: R$" + melhorPetshopGrandes.valor.toFixed(2) + "</p>" +
+        "<p>Valor: R$" + melhorPetshopGrandes.valor.toFixed(2) + " cada" + "</p>" +
         "<p><strong>Melhor petshop para cães pequenos e grandes juntos: </strong>" + melhorPetshopJuntos.nome + "</p>" +
         "<p>Valor: R$" + melhorPetshopJuntos.valor.toFixed(2) + "</p>" +
         "<p><strong>Outros petshops para cães pequenos: </strong>" + " <br> " +
